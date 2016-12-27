@@ -1,0 +1,17 @@
+[user]
+	name = Henry Walton
+	email = henry@streak.com
+[core]
+	editor = /usr/bin/vim
+[push]
+	default = simple
+[alias]
+	unadd = reset HEAD
+	log = --decorate --graph --all
+	lg = log --decorate --graph --all
+	undo = reset HEAD~
+	diffc = diff --cached
+	cb = checkout -b
+	drop = checkout .
+[credential]
+	helper = cache
