@@ -68,7 +68,7 @@ alias screencap='screencapture -i -T 5 -C ~/Desktop/screencap.png'
 # export DOCKER_TLS_VERIFY=1
 
 export DEFAULT_ENCODING=UTF-8
-export GITHUB_TOKEN=575277fe71c1bdaef4dfa21b09695fe7335ffd82
+# export GITHUB_TOKEN=
 export _JAVA_OPTIONS='-XX:MaxPermSize=512m -Xmx1024m'
 export DBG_ENABLE=true
 
