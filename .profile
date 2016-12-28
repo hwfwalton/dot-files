@@ -67,8 +67,8 @@ alias screencap='screencapture -i -T 5 -C ~/Desktop/screencap.png'
 # export DOCKER_CERT_PATH=/Users/hwfwalton/.boot2docker/certs/boot2docker-vm
 # export DOCKER_TLS_VERIFY=1
 
+source ~/.githubToken
 export DEFAULT_ENCODING=UTF-8
-# export GITHUB_TOKEN=
 export _JAVA_OPTIONS='-XX:MaxPermSize=512m -Xmx1024m'
 export DBG_ENABLE=true
 
