@@ -83,13 +83,10 @@ source $ZSH/oh-my-zsh.sh
 # Source from .profile for aliases and exports
 source '/Users/hwfwalton/.profile'
 
-# The next line enables bash completion for gcloud.
-# source '/var/google-cloud-sdk/completion.zsh.inc'
-
 export PATH="/usr/local/bin:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/Users/hwfwalton/google-cloud-sdk/path.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 
 # The next line enables shell command completion for gcloud.
-source '/Users/hwfwalton/google-cloud-sdk/completion.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
