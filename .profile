@@ -8,18 +8,8 @@ alias MailFoo='cd ~/Code/MailFoo'
 alias MailFooTest='cd ~/Code/MailFooTest'
 
 alias gc='gcloud compute'
-
 alias chrome='open -a "Google Chrome"'
-
 alias brb='tput bel'
-alias build_all='cd ~/Code/MailFoo; mvn package; gulp -q'
-alias build_cli='cd ~/Code/MailFoo; gulp -q'
-alias build_ext='cd ~/Code/MailFoo; mvn package'
-alias total_rebuild='cd ~/Code/MailFoo; mvn clean; mvn install; mvn package; ./builders/clientQuickPackager.sh 1 0'
-alias run_dev_old='cd ~/Code/MailFoo/Server-ear; GAE_TMP_FORCE_REUSE_API_CONNECTION=true mvn appengine:devserver -Ddev.skipDelayFilter=true -Dappengine_generated_dir=/tmp/appengine/generated -Ddev.istest=true'
-alias run_dev_noTest='cd ~/Code/MailFoo/Server-ear; GAE_TMP_FORCE_REUSE_API_CONNECTION=true mvn appengine:devserver -Ddev.skipDelayFilter=true -Dappengine_generated_dir=/Users/hwfwalton/Code/MailFooDataStores -Ddev.istest=false'
-alias run_dev='cd ~/Code/MailFoo/Server-ear; GAE_TMP_FORCE_REUSE_API_CONNECTION=true mvn appengine:devserver -Ddev.skipDelayFilter=true -Dappengine_generated_dir=/Users/hwfwalton/Code/MailFooDataStores -Ddev.istest=true'
-alias run_testing='cd ~/Code/MailFoo/Server-ear; GAE_TMP_FORCE_REUSE_API_CONNECTION=true mvn appengine:devserver -Ddev.skipDelayFilter=true -Dappengine_generated_dir=/tmp/mailfootestdir -Ddev.istest=true'
 
 runDev() {
   # Run stunnel at startup so the dev server works
